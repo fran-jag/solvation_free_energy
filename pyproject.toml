@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "solvation-free-energy"
+version = "0.1.0"
+description = "Study on solvation energy prediction models"
+authors = ["Fran <fjarriaza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.5.2"
+seaborn = "^0.13.2"
+plotly = "^5.24.1"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+rdkit = "^2024.3.5"
+sqlalchemy = "^2.0.35"
+loguru = "^0.7.2"
+ruff = "^0.6.8"
+pydantic = "^2.9.2"
+pydantic-settings = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
