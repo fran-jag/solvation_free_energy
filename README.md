@@ -76,7 +76,18 @@ R<sup>2</sup> vs Iteration of the Bayesian hyperparameter optimization.
  
 ![](/plots/XGB_optimization_col_lr.png)
 Contour plots of the colsample_bytree vs learning_rate parameters. 
-Left plot: R<sup>2</sup>, Right plot: Standad Error
+Left plot: R<sup>2</sup>, Right plot: Standad Error.
+
+### 2. Feature importance
+
+Using SHAP analysis, several features were found to impact the solvation free energy. Polar groups contributed the most towards negative values as seen here:
+
+![](/plots/XGB_features.png)
+Feature importance with corresponding Morgan fingerprints. 
+ 
+![](/plots/XGB_shap_dist.png)
+Beeswarmd plot of the top features. 
+Since features are binary High = 1, Low = 0. 
 
 ## Future Work
 
