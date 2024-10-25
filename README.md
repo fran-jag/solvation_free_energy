@@ -61,7 +61,7 @@ Currently implemented:
 ## Results
 
 ### 1. Model tuning
-[/plots/XGB_r2vsiter.png]
+[[/plots/XGB_r2vsiter.png]]
 
 
 ## Future Work
