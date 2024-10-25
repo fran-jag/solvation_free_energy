@@ -75,7 +75,7 @@ The R^2 was 0.879 against the independent test set.
 R^2 vs Iteration of the Bayesian hyperparameter optimization.
 
 ![](/plots/SGB_optimization_col_ls.png)
-Contour plots of the colsample_bytree vs learning_rate parameters. Left plot: R^2, Right plot: Standad Error
+Contour plots of the colsample_bytree vs learning_rate parameters. Left plot: R<sup>2</sup>, Right plot: Standad Error
 
 ## Future Work
 
