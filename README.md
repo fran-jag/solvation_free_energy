@@ -86,7 +86,7 @@ Using SHAP analysis, several features were found to impact the solvation free en
 Feature importance with corresponding Morgan fingerprints. 
  
 ![](/plots/XGB_shap_dist.png) 
-Beeswarm plot of the top features. 
+Beeswarm plot of the top features.  
 Since features are binary High = 1, Low = 0. 
 
 ## Future Work
