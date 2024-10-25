@@ -103,7 +103,7 @@ Since features are binary High = 1, Low = 0.
 1. Clone the repository
 2. Install Poetry if not already installed:
 ```bash
-curl -sSL https://install.python-poetry.org | python3 -
+pip install poetry
 ```
 3. Install dependencies:
 ```bash
