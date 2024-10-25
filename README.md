@@ -60,9 +60,22 @@ Currently implemented:
 
 ## Results
 
-### 1. Model tuning
-![](/plots/XGB_r2vsiter.png)
+Original data was split in 80:20 as Training:Test. The Test set was not used for training, only for final validation of the tunes models. The train set consisted of 514 samples, the test set consisted of 128 samples.
 
+### 1. XGB tuning
+Bayesian optimization of hyperparameters of XGBRegressor produced the following parameters as optimal:
+- learning_rate: 0.13295750580281185
+- max_depth: 6
+- colsample_bytree: 0.8723563799338128
+- reg_alpha: 0.0037713319149620733
+
+The R^2 was 0.879 against the independent test set.
+
+![](/plots/XGB_r2vsiter.png)
+R^2 vs Iteration of the Bayesian hyperparameter optimization.
+
+![](/plots/SGB_optimization_col_ls.png)
+Contour plots of the colsample_bytree vs learning_rate parameters. Left plot: R^2, Right plot: Standad Error
 
 ## Future Work
 
