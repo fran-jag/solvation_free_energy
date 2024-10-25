@@ -72,10 +72,11 @@ Bayesian optimization of hyperparameters of XGBRegressor produced the following 
 The R<sup>2</sup> was 0.879 against the independent test set.
 
 ![](/plots/XGB_r2vsiter.png)
-R<sup>2</sup> vs Iteration of the Bayesian hyperparameter optimization.
-
+R<sup>2</sup> vs Iteration of the Bayesian hyperparameter optimization. 
+ 
 ![](/plots/XGB_optimization_col_lr.png)
-Contour plots of the colsample_bytree vs learning_rate parameters. Left plot: R<sup>2</sup>, Right plot: Standad Error
+Contour plots of the colsample_bytree vs learning_rate parameters. 
+Left plot: R<sup>2</sup>, Right plot: Standad Error
 
 ## Future Work
 
