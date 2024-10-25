@@ -69,12 +69,12 @@ Bayesian optimization of hyperparameters of XGBRegressor produced the following 
 - colsample_bytree: 0.8723563799338128
 - reg_alpha: 0.0037713319149620733
 
-The R^2 was 0.879 against the independent test set.
+The R<sup>2</sup> was 0.879 against the independent test set.
 
 ![](/plots/XGB_r2vsiter.png)
-R^2 vs Iteration of the Bayesian hyperparameter optimization.
+R<sup>2</sup> vs Iteration of the Bayesian hyperparameter optimization.
 
-![](/plots/SGB_optimization_col_ls.png)
+![](/plots/XGB_optimization_col_lr.png)
 Contour plots of the colsample_bytree vs learning_rate parameters. Left plot: R<sup>2</sup>, Right plot: Standad Error
 
 ## Future Work
