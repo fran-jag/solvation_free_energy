@@ -58,6 +58,12 @@ Currently implemented:
 - SHAP (SHapley Additive exPlanations) values analysis
 - Visualization of important molecular fragments using RDKit
 
+## Results
+
+### 1. Model tuning
+[[https://github.com/fran-jag/solvation_free_energy/plots/XGB_r2vsiter.png|alt=R^2 vs N of iterations plot]]
+
+
 ## Future Work
 
 - Implementation of additional models:
@@ -85,7 +91,3 @@ The project is currently organized in Jupyter notebooks:
 1. Run `data_extraction_code.ipynb` to generate molecular fingerprints
 2. Run `xgbr_optimization_code.ipynb` for model optimization
 3. Run `shap_plot_code.ipynb` for feature importance analysis
-
-## License
-
-[Insert your chosen license here]
