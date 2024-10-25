@@ -82,10 +82,10 @@ Left plot: R<sup>2</sup>, Right plot: Standad Error.
 
 Using SHAP analysis, several features were found to impact the solvation free energy. Polar groups contributed the most towards negative values as seen here:
 
-![](/plots/XGB_features.png)
+![](/plots/XGB_features.png) 
 Feature importance with corresponding Morgan fingerprints. 
  
-![](/plots/XGB_shap_dist.png)
+![](/plots/XGB_shap_dist.png) 
 Beeswarm plot of the top features. 
 Since features are binary High = 1, Low = 0. 
 
@@ -113,7 +113,7 @@ poetry install
 ## Usage
 
 The project is currently organized in Jupyter notebooks:
-1. Download data from ![MoleculeNet](https://moleculenet.org/datasets-1)
+1. Download data from [MoleculeNet](https://moleculenet.org/datasets-1)
 2. Run `data_split.ipynb` to slit data into train:test
 3. Run `data_extraction.ipynb` to generate molecular fingerprints
 4. Run `xgbr_optimization.ipynb` for model optimization
