@@ -61,7 +61,7 @@ Currently implemented:
 ## Results
 
 ### 1. Model tuning
-[[https://github.com/fran-jag/solvation_free_energy/plots/XGB_r2vsiter.png|alt=R^2 vs N of iterations plot]]
+[[https://github.com/fran-jag/solvation_free_energy/plots/XGB_r2vsiter.png]]
 
 
 ## Future Work
