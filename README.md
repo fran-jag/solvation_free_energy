@@ -112,7 +112,7 @@ poetry install
 ## Usage
 
 The project is currently organized in Jupyter notebooks:
-1. Download data from [MoleculeNet](https://moleculenet.org/datasets-1)
+1. Download FreeSolv data from [MoleculeNet](https://moleculenet.org/datasets-1)
 2. Run `data_split.ipynb` to slit data into train:test
 3. Run `data_extraction.ipynb` to generate molecular fingerprints
 4. Run `xgbr_optimization.ipynb` for model optimization
