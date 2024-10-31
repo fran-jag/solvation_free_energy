@@ -60,14 +60,14 @@ Currently implemented:
 
 ## Results
 
-Original data was split in 80:20 as Training:Test. The Test set was not used for training, only for final validation of the tunes models. The train set consisted of 514 samples, the test set consisted of 128 samples.
+Original data was split in 80:20 as Training:Test. The Test set was not used for training, only for final validation of the tuned models. The train set consisted of 514 samples, the test set consisted of 128 samples.
 
 ### 1. XGB tuning
 Bayesian optimization of hyperparameters of XGBRegressor produced the following parameters as optimal:
-- learning_rate: 0.13295750580281185
+- learning_rate: 0.133
 - max_depth: 6
-- colsample_bytree: 0.8723563799338128
-- reg_alpha: 0.0037713319149620733
+- colsample_bytree: 0.872
+- reg_alpha: 0.0038
 
 The R<sup>2</sup> was 0.879 against the independent test set.
 
