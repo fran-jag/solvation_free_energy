@@ -110,7 +110,7 @@ Performance metrics and optimization results for each model are stored in `data/
 - Final optimized parameters and performance metrics
 
 
-### 1. XGB tuning
+### 1. Model comparison
 
 TODO: Update
 
