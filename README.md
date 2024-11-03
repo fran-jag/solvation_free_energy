@@ -109,12 +109,32 @@ Performance metrics and optimization results for each model are stored in `data/
 - Contour plots showing parameter interactions
 - Final optimized parameters and performance metrics
 
+### Dataset EDA
 
-### 1. Model comparison
+The dataset is comprised of over 600 compounds with it's experimentally determined solvation free energy. Additionally, each sample has it's calculated solvation free energy using molecular dynamics. For details of the dataset, refer to the publication ![Mobley, D., Guthrie, J. P. J Comput Aided Mol Des. 2014](https://pubmed.ncbi.nlm.nih.gov/24928188/)  
+
+The dataset was split into a training and test set. The test set was only used for final model comparison and wasn't used for the training. For comparison, the values of calculated and predicted solvation energy are shown below.  
+
+|                  | Samples | MAE  | RMSE | R²   |
+|------------------|---------|------|------|------|
+| Complete dataset | 642     | 1.11 | 1.54 | 0.84 |
+| Train split      | 514     | 1.10 | 1.5  | 0.85 |
+| Test split       | 128     | 1.18 | 1.71 | 0.79 |  
+
+The calculated fingerprints were used to calculate the similarity between the training and test dataset:
+
+Cosine similarity: 0.9658  
+Wasserstein distance: 38.1324  
+jenJensen–Shannon divergence: 0.1843  
+Bhattacharyya coefficient: 0.8284  
+Hellinger distance: 0.4143  
+
+
+### 2. Model comparison
 
 TODO: Update
 
-### 2. Feature importance
+### 3. Feature importance
 
 Using SHAP analysis, several features were found to impact the solvation free energy. Polar groups contributed the most towards negative values as seen here:
 
