@@ -107,7 +107,7 @@ All models use Bayesian optimization via Ax Platform for hyperparameter tuning w
 
 The dataset is comprised of over 600 compounds with their experimentally determined solvation free energy. Additionally, each sample has its calculated solvation free energy using molecular dynamics. For details of the dataset, refer to the following publication (Mobley, D., Guthrie, J. P. [2014](https://pubmed.ncbi.nlm.nih.gov/24928188/))
 
-The dataset was split into a training and test set. The test set was only used for final model comparison and wasn't used for the training. For comparison, the values of calculated and predicted solvation energy are shown below.  
+The dataset was split into a training and test set. The test set was only used for final model comparison and wasn't used for the training. For comparison, the mean absolute error (MAE), root of the mean squared error (RMSE) and Coefficient of determination (R²) between calculated and predicted solvation energy are shown below.  
 
 |                  | Samples | MAE  | RMSE | R²   |
 |------------------|---------|------|------|------|
