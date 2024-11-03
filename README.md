@@ -132,6 +132,9 @@ Performance metrics and optimization results for each model are stored in `data/
 - Contour plots showing parameter interactions
 - Final optimized parameters and performance metrics
 
+Comparison of optimization by Ax platform. The GCN shows a better performance on the train set than other models.
+[](/plots/optimization/opt_comparison.png)
+
 ### 3. Feature importance
 
 Using SHAP analysis, several features were found to impact the solvation free energy. Polar groups contributed the most towards negative values as seen here:
@@ -144,9 +147,6 @@ Beeswarm plot of the top features. Since features are binary High = 1, Low = 0.
 
 ## Future Work
 
-- Implementation of additional models:
-  - CatBoost
-  - Other ML algorithms
 - Comparative analysis of model performance
 - Feature importance comparison across different models
 - Ensemble methods exploration
