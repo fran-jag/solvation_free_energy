@@ -133,7 +133,7 @@ Performance metrics and optimization results for each model are stored in `data/
 - Final optimized parameters and performance metrics
 
 Comparison of optimization by Ax platform. The GCN shows a better performance on the train set than other models.
-[](/plots/optimization/opt_comparison.png)
+![](/plots/optimization/opt_comparison.png)
 
 ### 3. Feature importance
 
