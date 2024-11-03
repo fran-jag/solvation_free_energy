@@ -103,15 +103,9 @@ All models use Bayesian optimization via Ax Platform for hyperparameter tuning w
 
 ## Results
 
-Performance metrics and optimization results for each model are stored in `data/optimization_results/`. Each model's optimization process includes:
-- Optimization traces showing RMSE improvement over trials
-- Feature importance analysis where applicable
-- Contour plots showing parameter interactions
-- Final optimized parameters and performance metrics
-
 ### Dataset EDA
 
-The dataset is comprised of over 600 compounds with it's experimentally determined solvation free energy. Additionally, each sample has it's calculated solvation free energy using molecular dynamics. For details of the dataset, refer to the publication ![Mobley, D., Guthrie, J. P. J Comput Aided Mol Des. 2014](https://pubmed.ncbi.nlm.nih.gov/24928188/)  
+The dataset is comprised of over 600 compounds with their experimentally determined solvation free energy. Additionally, each sample has its calculated solvation free energy using molecular dynamics. For details of the dataset, refer to the publication Mobley, D., Guthrie, J. P., ![2014](https://pubmed.ncbi.nlm.nih.gov/24928188/)  
 
 The dataset was split into a training and test set. The test set was only used for final model comparison and wasn't used for the training. For comparison, the values of calculated and predicted solvation energy are shown below.  
 
@@ -132,7 +126,11 @@ Hellinger distance: 0.4143
 
 ### 2. Model comparison
 
-TODO: Update
+Performance metrics and optimization results for each model are stored in `data/optimization_results/`. Each model's optimization process includes:
+- Optimization traces showing RMSE improvement over trials
+- Feature importance analysis where applicable
+- Contour plots showing parameter interactions
+- Final optimized parameters and performance metrics
 
 ### 3. Feature importance
 
